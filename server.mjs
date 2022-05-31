@@ -7,8 +7,6 @@ const getDirname = (meta) => fileURLToPath(meta.url);
 const rootDir = getDirname(import.meta);
 const distDir = resolve(rootDir, "..","public");
 
-console.log(distDir);
-
 const app = express();
 const httpServer = createServer(app);
 
