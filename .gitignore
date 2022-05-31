@@ -2,7 +2,7 @@
 yarn-error.log
 node_modules/
 .parcel-cache/
-dist/
+public/
 .pnp.*
 .yarn/*
 !.yarn/patches
